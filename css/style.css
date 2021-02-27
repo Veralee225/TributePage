@@ -1,0 +1,67 @@
+body {
+    background-color: orangered;
+    color: black; 
+    font-family:comic;
+    text-align: center;
+  }
+
+* {
+      padding: 0;
+      margin: 0;
+  }
+
+  #main{
+   background-color: orange;
+  } 
+
+  section{
+    background-color: orangered;
+  }
+
+  #title {
+    text-align: center;
+    font-size: 20px;
+    background-color: orange;
+    color:#9e9e7f;
+  }
+
+  #info{
+    text-align: justify;
+  }
+
+  #image-div {
+    display: block;
+    margin: 0;
+  }
+
+  #img-caption {
+    font-size: 10px;
+    
+  }
+
+  #image {
+    width: 80%;
+    height: 80%;
+    margin-left: 40%;
+    display: block;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+  }
+
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid;
+    
+      
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  ul {
+    margin-left: 10px
+  }
