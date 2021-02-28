@@ -1,8 +1,10 @@
 body {
-    background-color: orangered;
+    background-color: orange;
     color: black; 
     font-family:comic;
     text-align: center;
+    margin: 0;
+    line-height: 1.2;
 }
 
 * {
@@ -12,10 +14,11 @@ body {
 
 #main {
    background-color: orange;
+   border-radius: 5px;
 } 
 
 section {
-    background-color: orangered;
+    background-color: orange;
 }
 
 #title {
@@ -31,6 +34,7 @@ section {
 
 #image-div {
     display: block;
+    padding: 5px;
     margin: 0;
 }
 
@@ -38,13 +42,15 @@ section {
     font-size: 10px;   
 }
 
+/* height: auto, margin-left: auto etc helped with the center image and parent element problem */
 #image {
-    width: 80%;
-    height: 80%;
-    margin-left: 40%;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    width: 30%;
-    height: 30%;
+    margin: 0 auto;
     border-radius: 10px;
 }
 
@@ -57,9 +63,24 @@ section {
 }
   
 h2 {
-    font-size: 30px;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
-ul {
-    margin-left: 10px
+li {
+    margin: 0;
 }
+ul {
+    text-align: left;
+    line-height: 1.2;
+    max-width: 400px;
+    margin: 0 auto 50px auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+  
