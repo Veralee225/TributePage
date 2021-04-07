@@ -1,5 +1,5 @@
 # TributePage
-Freecodecamp Project 2
+Responsive Web Design Project 2
 
 Build a Tribute Page
 
